@@ -1,0 +1,11 @@
+services:
+  autotube:
+    build: .
+    ports:
+      - "8080:8080"
+    env_file: .env
+    volumes:
+      - autotube_data:/data
+    restart: unless-stopped
+volumes:
+  autotube_data:

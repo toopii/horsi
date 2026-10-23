@@ -1,0 +1,6 @@
+.git
+.env
+*.db
+*.sqlite*
+__pycache__
+*.mp4

@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+*.db
+*.sqlite*
+/data/
+*.mp4
